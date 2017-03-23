@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/OYXK/TestProject.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/OYXK/TestProject.git", :tag =>"1.0"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,9 +91,9 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "testgit222", "testgit222/**/*.{h,m}"
-  s.exclude_files = "testgit222/Exclude"
+  #s.exclude_files = "testgit222/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "testgit222/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
